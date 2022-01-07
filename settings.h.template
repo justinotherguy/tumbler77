@@ -1,0 +1,13 @@
+const char* ssid = "<SSID>";
+const char* wlan_password = "<wifi password>";
+
+const char* device_name = "tumbler";
+const char* mqtt_server = "<mqtt server>";
+const char* mqtt_password = "<mqtt password>";
+
+const char* mqtt_clientname = device_name;
+const char* mqtt_user = device_name;
+
+const char* mqtt_sub_topic = "devices/tumbler/command";
+const char* mqtt_pub_topic = "devices/tumbler/time_remaining";
+const char* mqtt_debug_topic = "devices/tumbler/debug";
